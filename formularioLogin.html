@@ -1,21 +1,50 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicie a Sessão</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleFormulario.css">
+    <title>Login</title>
+
 </head>
 
 <body>
 
-    <header>
-        <h1>TESTE</h1>
-    </header>
-      
+    <div class="login">
 
+        <form class="card">
+
+            <div class="card-header">
+                <h2>Login</h2>
+            </div>
+
+            <div class="card-content">
         
+                <div class="card-area">
+                    <label for="usuario">Usuário:</label>
+                    <input type="text" id="usuario" autocomplete="off">
+                </div>
+
+                <div class="card-area">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" autocomplete="off">
+                </div>
+
+            </div>
+
+            <div class="card-footer">
+                <input type="submit" value="login" class="submit">
+                <a href="#" class="recuperar-senha">Esqueceu sua senha?</a>
+                <a href="#" class="cadastrar">Cadastrar-se</a>
+            </div>
+
+        </form>
+
+    </div>
+
 </body>
 
 </html>

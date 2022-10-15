@@ -181,20 +181,3 @@ header .navlinks span {
     margin-top: 15px;
 }
 
-.owl-nav .owl-prev,
-.owl-nav .owl-next{
-    position: absolute;
-    top:40%;
-    height: 50px;
-    width: 50px;
-    background: rgba(0,0,0,0.7);
-    color: #fff;
-}
-
-.owl-nav .owl-prev{
-    left: 0;
-}
-
-.owl-nav .owl-next{
-    right: 0;
-}
