@@ -61,36 +61,73 @@
 
     </header>
 
-    <div class="principal" position-relative style="width: auto; padding: 40px; background-color:rgb(183, 194, 201);">
-    <div class="d-flex align-items-start mx-auto " position-relative style="width: 500px; margin-top: 70px; ">
-        <div class="nav flex-column nav-pills me-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical" >
-          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" style="font-weight: bold; color: black;"; >QUEM SOMOS</button>
-          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="font-weight: bold; color: black;">RESERVAS</button>
-          <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" style="font-weight: bold; color: black;">CANCELAMENTOS</button>
-          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="font-weight: bold; color: black;">PAGAMENTO</button>
-          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="font-weight: bold; color: black;">CONTATOS</button>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample" position-relative style="width:auto; padding: 100px;  background-color:rgb(183, 194, 201);">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne " style="font-weight: bold;">
+            QUEM SOMOS
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>O melhor site de hospedagens!</strong> Somos um mecanismo de metabusca que compara ofertas e preços de acomodações fornecidos por diferentes sites de reserva online.
+          </div>
         </div>
-        <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
-            Somos um mecanismo de metabusca que compara ofertas e preços de acomodações fornecidos por diferentes sites de reserva online.</div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style="font-weight: bold;">
+            RESERVAS
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
             Quando você clica em uma de nossas hospedagens, nós lhe redirecionamos para a aba de reservas para que você conclua a sua reserva. 
             Após fazer o pagamento, você recebe um e-mail de confirmação no endereço que utilizou para reservar.
-             Esse e-mail é enviado pelo site de reserva e inclui todos os detalhes sobre a sua hospedagem, além dos dados de contato da propriedade e as informações de contato do serviço de atendimento ao cliente do site de reserva.</div>
-          <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+            Esse e-mail é enviado pelo site de reserva e inclui todos os detalhes sobre a sua hospedagem, além dos dados de contato da propriedade e as informações de contato do serviço de atendimento ao cliente do site de reserva.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree"  style="font-weight: bold;">
+            CANCELAMENTOS
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
             Para cancelar ou alterar a sua reserva, fale direto com o site de reserva. Você pode encontrar os dados de contato do site de reserva no seu e-mail de confirmação.
           </div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour " style="font-weight: bold;">
+            PAGAMENTOS
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+          <div class="accordion-body">
             Aceitamos diferentes formas de pagamento, dependendo do país em que sua conta de pagamento está localizada.
-            Mostraremos quais formas de pagamento estão disponíveis na página de checkout, depois que você selecionar seu país.</div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+            Mostraremos quais formas de pagamento estão disponíveis na página de checkout, depois que você selecionar seu país.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive " style="font-weight: bold;">
+            CONTATO
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+          <div class="accordion-body">
             Entre em contato conosco pelo e-mail: hospedagem@hospedagens.com 
             Ou ligue para nossa central 0800154488
           </div>
         </div>
       </div>
     </div>
-
     
 </body>
 
