@@ -4,22 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enter em Contato</title>
-
+    <title>Entre em Contato</title>
+    
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+
 </head>
 
 <body>
+    <header>
 
-    <h1> ESPECIFICAR PAGINA DE CONTATO </h1>
+        <nav class="navbar navbar-expand-lg bg-light mx-auto " style="width: auto;">
+            <div class="container-fluid" >
+             
+              <img src="imagens/logoMala.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top" style="margin-left:30px; ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse  d-grid gap-2 d-md-flex justify-content-md-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html" target="_blank" style="font-weight: bold; margin-right: 20px;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="formularioLogin.html" target="_blank" style="font-weight: bold; margin-right: 30px; ">Login</a>
+                  </li>
+         
+                </ul>
+              </div>
+            </div>
+          </nav>
 
+        <nav class="navbar bg-light mx-auto">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                
+              </a>
+            </div>
+    
+            <nav class="navbar bg-light mx-auto" style="width: 500px; margin-top: 50px; margin-bottom: 40px;">
+                <div class="container-fluid">
+                  <a class="navbar-brand"><h2> Olá! Como podemos ajudar? </h2> </a>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
+                  </form>
+                </div>
+              </nav>
+      
+        </nav>
 
-                    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </header>
+
+    <div class="principal" position-relative style="width: auto; padding: 40px; background-color:rgb(183, 194, 201);">
+    <div class="d-flex align-items-start mx-auto " position-relative style="width: 500px; margin-top: 70px; ">
+        <div class="nav flex-column nav-pills me-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical" >
+          <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" style="font-weight: bold; color: black;"; >QUEM SOMOS</button>
+          <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" style="font-weight: bold; color: black;">RESERVAS</button>
+          <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false" style="font-weight: bold; color: black;">CANCELAMENTOS</button>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" style="font-weight: bold; color: black;">PAGAMENTO</button>
+          <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" style="font-weight: bold; color: black;">CONTATOS</button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+            Somos um mecanismo de metabusca que compara ofertas e preços de acomodações fornecidos por diferentes sites de reserva online.</div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+            Quando você clica em uma de nossas hospedagens, nós lhe redirecionamos para a aba de reservas para que você conclua a sua reserva. 
+            Após fazer o pagamento, você recebe um e-mail de confirmação no endereço que utilizou para reservar.
+             Esse e-mail é enviado pelo site de reserva e inclui todos os detalhes sobre a sua hospedagem, além dos dados de contato da propriedade e as informações de contato do serviço de atendimento ao cliente do site de reserva.</div>
+          <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+            Para cancelar ou alterar a sua reserva, fale direto com o site de reserva. Você pode encontrar os dados de contato do site de reserva no seu e-mail de confirmação.
+          </div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+            Aceitamos diferentes formas de pagamento, dependendo do país em que sua conta de pagamento está localizada.
+            Mostraremos quais formas de pagamento estão disponíveis na página de checkout, depois que você selecionar seu país.</div>
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+            Entre em contato conosco pelo e-mail: hospedagem@hospedagens.com 
+            Ou ligue para nossa central 0800154488
+          </div>
+        </div>
+      </div>
+    </div>
+
     
 </body>
 
